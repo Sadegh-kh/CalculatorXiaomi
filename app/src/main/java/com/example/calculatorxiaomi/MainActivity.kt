@@ -16,7 +16,7 @@ const val KEY_INTENT_NAME = "data"
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
-    var check: Boolean = true//برای چک کردن که دات گذاشتیم یا خیر
+    var check: Boolean = true//for check dot(.)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
